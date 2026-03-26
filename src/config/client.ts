@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "1",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Michael Hughes", rating: 5, text: "We had Warren Garden Services come out to completely transform our back garden and we couldn't be happier. They listened to exactly what we wanted and delivered beyond our expectations. The attention to detail was incredible — every edge, every pl...", date: "5 months ago" },
+    { name: "Phil E.", rating: 5, text: "Would give Warren Garden Services 10 stars if I could. They transformed our tired-looking garden into a beautiful, functional space. The team were a pleasure to deal with and the price was very competitive for Guildford.", date: "a year ago" },
+    { name: "Scott Wright", rating: 5, text: "Just had Warren Garden Services finish our garden project in Guildford. What a difference! The team were lovely to have around — respectful of our property, cleaned up after themselves, and produced an amazing result.", date: "2 months ago" },
+    { name: "Emma M.", rating: 5, text: "Absolutely delighted with the work Warren Garden Services did on our garden. From the initial consultation to the finished result, everything was handled professionally. The team were punctual, tidy, and the quality of workmanship was outstanding....", date: "5 months ago" },
+    { name: "Georgia Harvey", rating: 5, text: "Had a wonderful experience with Warren Garden Services. From the design phase right through to the final clean-up, everything was handled brilliantly. The new patio and planting scheme look amazing.", date: "2 years ago" },
+    { name: "Tom T.", rating: 5, text: "We found Warren Garden Services online and after reading about their work, decided to give them a call. So glad we did — the garden has been completely transformed. Professional from start to finish.", date: "a year ago" },
+    { name: "Jake T.", rating: 5, text: "We've used several landscapers over the years and Warren Garden Services are by far the best. Quality materials, expert installation, and they genuinely care about getting it right. Our patio and borders look fantastic.", date: "8 months ago" },
+    { name: "Mel Young", rating: 5, text: "From start to finish, working with Warren Garden Services was a pleasure. They arrived when they said they would, worked efficiently, and the end result is stunning. Several friends have commented on how good the garden looks now.", date: "3 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
